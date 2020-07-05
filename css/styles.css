@@ -1,0 +1,142 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  border: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: #eaf6f6;
+  border-width: 8px;
+  margin: 100px auto 100px auto;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #40514e;
+  line-height: 2;
+}
+
+.topcontainer {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.midcontainer {
+  margin-top: 20px;
+}
+
+.botcontainer {
+  background-color: #66bfbf;
+  padding: 50px 50px 10px 50px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 500px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 600px;
+  bottom: 300px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto 20px auto 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+}
+
+.webdev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.graphicdes {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.my-picture {
+  margin-top: 50px;
+  width: 10%;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px auto 50px auto;
+}
+
+.btn:hover {
+  background: #30e4cb;
+  background-image: linear-gradient(to bottom, #30e4cb, #2bc4ad);
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: .75rem;
+  padding: 25px 0;
+}
+
+.introduction {
+  width: 25%;
+  margin: auto;
+}
+
+.skill-row-description {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
